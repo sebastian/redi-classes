@@ -141,3 +141,19 @@ From: /Users/seb/projects/redi/classes/class1/app/person.rb @ line 27 Person#deb
   hour from the person the method is being called on, to the person being passed in as an argument
 - Add a method that prints the current balance of a person
 - Exercise your program in the terminal to make sure it works
+
+
+# Rails
+
+We will create a dummy application in this class. It will eventually be thrown away, so don't hesitate to play around and experiment.
+To create a basic rails application called `class1` and run it, use the following commands in your shell:
+
+```shell
+rails new class1
+cd class1
+bundle exec rails s
+```
+
+The application will now be running and available on `http://localhost:3000`.
+
+The rails girls guides has an excellent step by step [guide](http://guides.railsgirls.com/app) you can follow if you get stuck when you try to replicate this by yourself. We will follow the rough steps from the rails girls guide when creating our first application, only that we will not upload images, and we will not create an `idea` system, but rather a system that allows us to add `person`s.
