@@ -23,6 +23,15 @@ __Homework__
 - [ ] create an account at [heroku](http://heroku.com/)
 - [ ] deploy your website to heroku. Heroku has some [quite decent documentation](https://devcenter.heroku.com/articles/getting-started-with-rails4)
 
+__Additional resources__
+- ruby
+  - [_why's Poignant guide to ruby](http://poignant.guide/). You might love or hate this. If you love it, then it is an excellent way of getting a good grasp on ruby, and an entertaining read to boot.
+  - [Ruby in 100 minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) is a nice quick read
+  - [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/) is another more indepth look at Ruby. I don't know this book myself
+- git
+  - [git in 15 minutes](https://try.github.io/levels/1/challenges/1)
+  - [learn git branching](http://pcottle.github.io/learnGitBranching/): this is a really excellent interactive tutorial that gives you a great understanding of the slightly more complex workflows you will encounter in your worklives. Well worth your time going through in my opinion.
+  - 
 ---------------
 
 # Ruby
