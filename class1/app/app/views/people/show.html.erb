@@ -1,0 +1,43 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= @person.name %>'s credit management screen</h1>
+
+<p>
+  <strong>Current balance:</strong>
+  <%= @person.balance %>
+</p>
+
+<% if @person.balance > 0 -%>
+<p>
+  Clicking on one of the names below will transfer one
+  time unit to that person.
+</p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Balance</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @other_people.each do |person| %>
+      <tr>
+        <td><%= person.name %></td>
+        <td><%= person.balance %></td>
+        <td>
+          <%= link_to 'Transfer', "/people/#{@person.id}/transfer/#{person.id}",
+              class: "btn btn-default", method: :post %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<% else %>
+<p><%= @person.name %> has no credit. No credit transfer can be performed.</p>
+<% end %>
+
+<%= link_to 'People overview', people_path, class: "btn btn-default"  %>
