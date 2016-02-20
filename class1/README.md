@@ -9,6 +9,9 @@ __What we will cover__
   - MVC
   - Create scaffold person
 
+Everyone will work on their own laptops.
+If you get stuck, or have problems, ask me, or one of your friends for help.
+
 __By the end__
 - you should know the basics of Ruby
 - be able to create a basic rails application, run and modify it
