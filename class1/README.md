@@ -30,8 +30,8 @@ __Additional resources__
   - [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/) is another more indepth look at Ruby. I don't know this book myself
 - git
   - [git in 15 minutes](https://try.github.io/levels/1/challenges/1)
-  - [learn git branching](http://pcottle.github.io/learnGitBranching/): this is a really excellent interactive tutorial that gives you a great understanding of the slightly more complex workflows you will encounter in your worklives. Well worth your time going through in my opinion.
-  - 
+  - [learn git branching](http://pcottle.github.io/learnGitBranching/) is a really excellent interactive tutorial that gives you a great understanding of the slightly more complex workflows you will encounter in your worklives. Well worth your time going through in my opinion.
+
 ---------------
 
 # Ruby
