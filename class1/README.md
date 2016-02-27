@@ -18,10 +18,17 @@ __By the end__
 
 __Homework__
 - [ ] create an account on github and send me your username
-- [ ] augment the scaffold website created in the class so that you can transfer credits between people
-  - this will require that you create a custom [route](http://guides.rubyonrails.org/routing.html). The [following](http://guides.rubyonrails.org/action_controller_overview.html#routing-parameters) might also be useful.
 - [ ] create an account at [heroku](http://heroku.com/)
 - [ ] deploy your website to heroku. Heroku has some [quite decent documentation](https://devcenter.heroku.com/articles/getting-started-with-rails4)
+- [ ] Add some styling to your website. Look at how the [Rails girls tutorial](http://guides.railsgirls.com/app) did it for some inspiration :)
+- [ ] Once you have added style, update the version on Heroku so it also has your styles
+- [ ] Change the `Person` model so it also contains an age column
+  - [ ] You will need to create a migration. Google `Rails migration`
+  - [ ] Remove the `age` method we created in the class
+  - [ ] Update `app/views/person/_form.html.erb` so it also includes a field for the users age
+  - [ ] Update the `person_params` in `app/controllers/people_controller.rb` so it also allows the age to be updated
+- [ ] Push latest changes to heroku :)
+
 
 __Additional resources__
 - ruby
